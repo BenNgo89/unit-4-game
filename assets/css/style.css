@@ -1,7 +1,11 @@
 body{
-    width: 960px;
-    height: 1000px;
+    width: 1000px;
+    height: 1500px;
 }
+#parentTitleBox{
+    margin: 35px auto auto 10px;
+}
+
 .titleBox{
     height: 200px;
     width: 400px;
@@ -11,10 +15,6 @@ body{
     text-align: center;
     color: white;
     font-size: 40px;
-
-}
-#parentTitleBox{
-    margin: 35px auto auto 10px;
 }
 #instructionBox{
     margin: 35px auto auto 10px;
@@ -42,5 +42,15 @@ body{
     
 }
 #parentGameButtons{
-    
+     margin: 35px auto auto 10px;
+    height: 200px;
+    width: 600px;
+}
+
+.box{
+    width: 130px;
+    height: 100%;
+    background-color: blue;
+    margin:0 10px 0 10px;
+    float: left;
 }
