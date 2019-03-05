@@ -33,6 +33,7 @@ body{
     height: 100%;
     float: left;
     background-color: #5ac77c;
+    font-size: 50px;
 }
 .winLoseBox{
     width: 40%;
@@ -50,7 +51,21 @@ body{
 .box{
     width: 130px;
     height: 100%;
-    background-color: blue;
     margin:0 10px 0 10px;
     float: left;
+    overflow: hidden;
+    
+}
+
+#parentscore{
+    margin: 25px auto auto 10px;
+    width: 330px;
+    height: 250px;
+    position: relative;
+}
+.score{
+    margin: 25px auto auto 10px;
+    width: 100%;
+    height: 25%;
+    background-color: #4aaaa5;
 }
