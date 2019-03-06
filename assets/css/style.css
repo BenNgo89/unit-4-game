@@ -1,71 +1,64 @@
+/* General Elements*/
 body{
-    width: 1000px;
-    height: 1500px;
+	background-image: url("../images/background.png")
 }
-#parentTitleBox{
-    margin: 35px auto auto 10px;
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
 }
-
-.titleBox{
-    height: 200px;
-    width: 400px;
-    background-color: #c67229;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    color: white;
-    font-size: 40px;
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
 }
-#instructionBox{
-    margin: 35px auto auto 10px;
-    width: 600px;
-    height: 500px;
-    background-color: #f9e4cd;
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
 }
-#parentRanWlBox{
-    margin: 35px 0 0 10px;
-    width: 600px;
-    height: 250px;
-    
+h1{
+	font-size: 30pt;
 }
-.ranNumBox{
-    width: 55%;
-    height: 100%;
-    float: left;
-    background-color: #5ac77c;
-    font-size: 50px;
+ol{
+	list-style: decimal inside; 
 }
-.winLoseBox{
-    width: 40%;
-    height: 100%;
-    float: right;
-    background-color: #4bfdfc;
-    
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
 }
-#parentGameButtons{
-     margin: 35px auto auto 10px;
-    height: 200px;
-    width: 600px;
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: #e0e0eb;
 }
-
-.box{
-    width: 130px;
-    height: 100%;
-    margin:0 10px 0 10px;
-    float: left;
-    overflow: hidden;
-    
+div.header, div.instructions{
+	width: 50%;
 }
-
-#parentscore{
-    margin: 25px auto auto 10px;
-    width: 330px;
-    height: 250px;
-    position: relative;
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
 }
-.score{
-    margin: 25px auto auto 10px;
-    width: 100%;
-    height: 25%;
-    background-color: #4aaaa5;
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
 }
